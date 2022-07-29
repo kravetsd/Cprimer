@@ -23,6 +23,7 @@ int storetofile()
     printf("Opening a file:\n");
     outfile = fopen("/tmp/tokens", "w+");
     printf("file was opened with \n");
+    printf("Hello!\007 and beep!\n"); // this doesn't beep.
 
     if (!outfile)
         return (-1); // error!
