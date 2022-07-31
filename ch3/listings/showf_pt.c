@@ -11,5 +11,7 @@ int main(void)
     printf("%f can be written %e\n", abet, abet);
     printf("%Lf can be written %Le\n", dip, dip);
 
+    float toobig = 3.4E38 * 100.0f;
+    printf("%e\n", toobig);
     return 0;
 }
