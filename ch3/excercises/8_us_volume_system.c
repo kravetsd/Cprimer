@@ -17,7 +17,7 @@ int main(void)
     teaspoons = tablespoons*3;
 
 
-    printf("%d cups is: \n- %f pints\n- %f onces\n- %f tablesponns\n- %f teasponns\n", cups,pints,onces,tablespoons,teaspoons);
+    printf("%d cups is: \n- %.2f pints\n- %.2f onces\n- %.2f tablesponns\n- %.2f teasponns\n", cups,pints,onces,tablespoons,teaspoons);
 
     return 0;
 
