@@ -10,7 +10,7 @@ int main(void)
     char name[40];
 
     printf("Hi! What's your first name? \n");
-    scanf("%s", &name);
+    scanf("%s", name);
 
     printf("Hi %s, what's you weight in pounds? \n", name);
     scanf("%f", &weight);
@@ -24,7 +24,7 @@ int main(void)
     printf("Well, %s, your volume is %2.0f kubic feet\n",name, volume);
 
 
-    printf("Also your firs name is %d letters long.\n We also need %d bytes to store it in memory\n", letters, size);
+    printf("Also your firs name is %d letters long.\nWe also need %d bytes to store it in memory.\n", letters, size);
 
     return 0;
 
